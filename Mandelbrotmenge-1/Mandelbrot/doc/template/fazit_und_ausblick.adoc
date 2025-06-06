@@ -1,0 +1,15 @@
+== Fazit und Ausblick
+
+Das Projekt zeigt, dass verteilte Verarbeitung ein effektive Lösung zur Bewältigung rechenintensiver Aufgaben wie der Berechnung der Mandelbrot-Menge dartsellen. Die durchgeführten Messungen belegen, dass die Verarbeitungsgeschwindigkeit mit zunehmender Anzahl von Worker-Knoten deutlich gesteigert werden kann – bei gleichzeitiger gleichmäßiger Auslastung der Ressourcen. Die Systemarchitektur ermöglicht eine saubere Trennung von Steuerlogik, Benutzeroberfläche und Berechnungskomponenten und lässt sich flexibel an unterschiedliche Hardwarekonfigurationen anpassen.
+
+Besonders hervorzuheben ist die effiziente Aufgabenverteilung, die es ermöglicht, die Rechenlast auf Basis verfügbarer Ressourcen gleichmäßig zu verteilen. Die Skalierung ist nachvollziehbar und stabil – bereits durch den Einsatz eines zweiten Workers konnte die Rechenzeit nahezu halbiert werden. Mit vier parallel arbeitenden Workern wurde eine Reduktion um über 70 % gegenüber der Einzelverarbeitung erreicht.
+Für die Zukunft sind folgende Erweiterungen möglich:
+
+Für weiterführende Arbeiten ergeben sich folgende Perspektiven:
+
+- **Dynamische Lastverteilung**: Bisher wurde die Chunk-Verteilung statisch vorgenommen. Zukünftig könnte ein dynamisches Scheduling auf Basis der tatsächlich gemessenen Ausführungszeiten eine noch bessere Ausnutzung heterogener Systeme ermöglichen.
+
+- **Visualisierung & Benutzerfreundlichkei**t: Eine interaktive Darstellung der berechneten Fraktale sowie eine visuelle Rückmeldung über den Fortschritt könnten die Anwendung deutlich intuitiver gestalten.
+
+Insgesamt liefert das Projekt eine solide Grundlage für weitere Experimente und Optimierungen im Bereich verteilter Verfahren und demonstriert anschaulich das Potenzial moderner vernetzter Rechenarchitekturen.
+

@@ -1,0 +1,35 @@
+============ Summary ============
+* Time		: 8212 ms
+* Total Chunks	: 1200
+* Chunks per Worker
+  - worker_1	: 297	(24,75%)
+  - worker_2	: 296	(24,67%)
+  - worker_3	: 296	(24,67%)
+  - worker_4	: 311	(25,92%)
+
+xmax: -0.3483730867207764
+
+============ Summary ============
+* Time		: 10572 ms
+* Total Chunks	: 1200
+* Chunks per Worker
+  - worker_1	: 390	(32,50%)
+  - worker_2	: 409	(34,08%)
+  - worker_4	: 401	(33,42%)
+
+xmax: -0.3483730867207764
+
+============ Summary ============
+* Time		: 15613 ms
+* Total Chunks	: 1200
+* Chunks per Worker
+  - worker_1	: 604	(50,33%)
+  - worker_4	: 596	(49,67%)
+
+xmax: -0.3483730867207764
+
+============ Summary ============
+* Time		: 30920 ms
+* Total Chunks	: 1200
+* Chunks per Worker
+  - worker_1	: 1200	(100,00%)
